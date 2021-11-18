@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.axioscontainer {
+    display: flex;
+    background-color: rgb(240, 156, 212);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+    .axioscontainer > div {
+        background-color: #f1f1f1;
+        border-radius: 2rem;
+        margin: 1rem;
+        padding: 0 0.5rem;
+        font-size: 1.0833em;
+        width: 25%;
+        box-shadow: 0.5rem 0.5rem rgb(209, 221, 166);
+    }
